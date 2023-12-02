@@ -1,0 +1,14 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "Calcit2",
+  "outputfilename": "Calcit2",
+  "frontend:install": "pnpm install",
+  "frontend:build": "pnpm run build",
+  "frontend:dev:watcher": "pnpm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "wailsjsdir": "frontend/src/lib/ts",
+  "author": {
+    "name": "Ryan Fong",
+    "email": "rybeats@live.com"
+  }
+}
